@@ -9,8 +9,8 @@
   tasks: 
    - name: print the course information 
      ansible.builtin.debug: 
-      msg: "hello {{ COURSE }}, duration: {{ DURATION }}, trainer is {{ TRAINER }}"
+      msg: "hello {{ COURSE }}, Course duration: {{ DURATION }}, trainer is {{ TRAINER }}"
 
    - name: print the course information again
      ansible.builtin.debug: 
-      msg: "hello {{ COURSE }}, duration: {{ DURATION }}, trainer is {{ TRAINER }}"
+      msg: "hello {{ COURSE }}, Course duration: {{ DURATION }}, trainer is {{ TRAINER }}"
