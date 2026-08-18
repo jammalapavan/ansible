@@ -4,11 +4,11 @@
   vars_prompt: 
   - name: username 
     prompt: please enter your username 
-    private: false
+    private: true # if would be a false means i will show you while entering the letters 
   
   - name: password 
     prompt: please enter your password
-    private: false
+    private: true # if would be a false means i will show you while entering the letters 
 
   tasks: 
   - name: printing the user information 
