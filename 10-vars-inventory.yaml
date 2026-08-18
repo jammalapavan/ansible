@@ -1,6 +1,5 @@
 - name: variables form inventory 
-  hosts: local
-  connection: local
+  hosts: frontend
   tasks:
    - name: print couse info
      ansible.builtin.debug:
