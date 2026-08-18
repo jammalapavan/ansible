@@ -5,11 +5,12 @@
    COURSE: ansible
    DURATION: 10hrs
    TRAINER: siva 
+
   tasks: 
    - name: print the course information 
      ansible.builtin.debug: 
       msg: "hello {{ COURSE }}, duration: {{ DURATION }}, trainer is {{ TRAINER }}"
-  tasks: 
+
    - name: print the course information again
      ansible.builtin.debug: 
       msg: "hello {{ COURSE }}, duration: {{ DURATION }}, trainer is {{ TRAINER }}"
